@@ -7,6 +7,7 @@ module.exports = {
         "primary-color": "#00D54B",
         "secondary-color": "#00D54B",
         "footer-font": "#B6B6B6",
+        "footer-font-secondary": "#606060;",
         "white-grey": "#F8F6F6;",
       },
       fontFamily: {

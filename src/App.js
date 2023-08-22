@@ -1,21 +1,21 @@
 import "./App.css";
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
+// import Navbar from "./components/Navbar";
+// import Hero from "./components/Hero";
 // import Banking from "./components/Banking";
 // import CashCard from "./components/CashCard";
-// import Investing from "./components/Investing";
+import Investing from "./components/Investing";
 // import Payments from "./components/Payments";
 
 function App() {
   return (
     <div className="relative">
-      <Navbar />
+      {/* <Navbar /> */}
       <main>
-        <Hero />
+        {/* <Hero /> */}
         {/* <Payments /> */}
         {/* <Banking /> */}
         {/* <CashCard /> */}
-        {/* <Investing /> */}
+        <Investing />
       </main>
     </div>
   );

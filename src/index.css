@@ -29,12 +29,13 @@
   }
 
   .floor-position {
-    background-position-y: calc(100vh - 320px);
+    transform: translate3d(0px, 0, 2px)
   }
 
   .heading {
     @apply font-primary text-4xl xxxs:text-6xl xxs:text-8xl xs:text-9xl md:text-[164px] lg:text-[193px] font-extrabold uppercase leading-[0.86] tracking-[0.5px] text-center;
   }
+
 }
 
 @layer animation {
