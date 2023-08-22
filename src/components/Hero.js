@@ -13,7 +13,7 @@ const Hero = () => {
       </div>
 
       {/* Ray Overlay */}
-      <div className="absolute inset-0 h-screen w-screen -z-20">
+      <div className="animate-rotate absolute inset-0 h-screen w-screen -z-20">
         <img
           src="/images/rays.svg"
           alt="Rays"

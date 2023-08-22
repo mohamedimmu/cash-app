@@ -1,6 +1,6 @@
 import "./App.css";
-// import Navbar from "./components/Navbar";
-// import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
 // import Banking from "./components/Banking";
 // import CashCard from "./components/CashCard";
 import Investing from "./components/Investing";
@@ -8,10 +8,10 @@ import Investing from "./components/Investing";
 
 function App() {
   return (
-    <div className="relative">
-      {/* <Navbar /> */}
+    <div className="relative app">
+      <Navbar />
       <main>
-        {/* <Hero /> */}
+        <Hero />
         {/* <Payments /> */}
         {/* <Banking /> */}
         {/* <CashCard /> */}

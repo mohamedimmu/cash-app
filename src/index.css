@@ -24,6 +24,18 @@
     overflow-x: hidden;
   }
 
+  .app{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+  }
+
+  section{
+    scroll-snap-align: center;
+    scroll-snap-stop: normal;
+    scroll-margin: 10px;
+  }
+
   .center-absolute {
     @apply top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2;
   }
