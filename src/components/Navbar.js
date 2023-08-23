@@ -40,7 +40,7 @@ const Navbar = () => {
       </nav>
 
       {/* Mobile Naviagtion */}
-      <nav className="lg:hidden flex justify-between px-8 py-6 gap-4 flex-wrap">
+      <nav className="lg:hidden flex justify-between px-8 py-6 gap-6">
         <div className="logo">
           <a href="/">
             <img

@@ -24,13 +24,13 @@
     overflow-x: hidden;
   }
 
-  .app{
+  .app {
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
     height: 100vh;
   }
 
-  section{
+  section {
     scroll-snap-align: center;
     scroll-snap-stop: normal;
     scroll-margin: 10px;
@@ -41,13 +41,47 @@
   }
 
   .floor-position {
-    transform: translate3d(0px, 0, 2px)
+    transform: translate3d(0px, 0, 2px);
   }
 
   .heading {
-    @apply font-primary text-4xl xxxs:text-6xl xxs:text-8xl xs:text-9xl md:text-[164px] lg:text-[193px] font-extrabold uppercase leading-[0.86] tracking-[0.5px] text-center;
+    @apply font-primary text-4xl hxxs:text-[72px] xxxs:text-[60px] xxs:text-8xl xs:text-9xl md:text-[164px] lg:text-[193px] font-extrabold uppercase leading-[0.86] tracking-[0.5px] text-center;
   }
 
+  .cash-card-grid {
+    grid-template-columns: minmax(1rem, 1fr) minmax(auto, 140ch) minmax(
+        1rem,
+        1fr
+      );
+  }
+
+  .cash-card-grid {
+    grid-template-columns: minmax(1rem, 1fr) minmax(auto, 140ch) minmax(
+        1rem,
+        1fr
+      );
+  }
+
+  .cash-card-grid-lg {
+    grid-template-columns: minmax(1rem, 1fr) minmax(auto, 120ch) minmax(
+        1rem,
+        1fr
+      );
+  }
+
+  .cash-card-grid-md {
+    grid-template-columns: minmax(1rem, 1fr) minmax(auto, 70ch) minmax(
+        1rem,
+        1fr
+      );
+  }
+
+  .cash-card-grid-sm {
+    grid-template-columns: minmax(1rem, 1fr) minmax(auto, 50ch) minmax(
+        1rem,
+        1fr
+      );
+  }
 }
 
 @layer animation {
@@ -78,7 +112,7 @@
     }
   }
 
-  .animate-rotate{
+  .animate-rotate {
     animation: rotate 30s linear infinite;
   }
 

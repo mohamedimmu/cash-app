@@ -2,7 +2,7 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 // import Banking from "./components/Banking";
-// import CashCard from "./components/CashCard";
+import CashCard from "./components/CashCard";
 import Investing from "./components/Investing";
 // import Payments from "./components/Payments";
 
@@ -14,7 +14,7 @@ function App() {
         <Hero />
         {/* <Payments /> */}
         {/* <Banking /> */}
-        {/* <CashCard /> */}
+        <CashCard />
         <Investing />
       </main>
     </div>
