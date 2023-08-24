@@ -14,8 +14,8 @@ const CashCard = () => {
         </p>
       </div>
 
-      {/* Image Element */}
-      <div className="row-start-1 col-start-2 col-end-3 col-span-1 justify-self-center self-end mb-[180px] xxxs:mb-[120px] xxs:mb-[95px] ml-0 xl:ml-[96px] flex justify-center ">
+      {/* Image Element - mb-[180px] xxxs:mb-[120px] xxs:mb-[95px]  */} 
+      <div className="row-start-1 col-start-2 col-end-3 col-span-1 justify-self-center absolute bottom-[120px] md:bottom-[92px] ml-0 sm:ml-[48px] xl:ml-[96px] flex justify-center w-[200px] h-[260px] sm:w-[250px] sm:h-[300px] md:w-[200px] md:h-[300px] lg:w-[250px] lg:h-[400px] xl:h-[508px]">
         <img
           src="/images/boost-phone.png"
           alt="Phone"
@@ -26,7 +26,7 @@ const CashCard = () => {
       <img
         src="/images/boost-stairs-2.png"
         alt="Stairs Left"
-        className="absolute -left-[220px] lg:-left-[80px] col-start-2 col-end-3 self-end -z-10"
+        className="absolute -left-[120px] sm:-left-[220px] lg:-left-[160px] xl:-left-[80px] col-start-2 col-end-3 self-end -z-10"
       />
 
       <img
