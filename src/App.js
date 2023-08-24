@@ -1,10 +1,10 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-// import Banking from "./components/Banking";
+import Banking from "./components/Banking";
 import CashCard from "./components/CashCard";
 import Investing from "./components/Investing";
-// import Payments from "./components/Payments";
+import Payments from "./components/Payments";
 
 function App() {
   return (
@@ -12,8 +12,8 @@ function App() {
       <Navbar />
       <main>
         <Hero />
-        {/* <Payments /> */}
-        {/* <Banking /> */}
+        <Payments />
+        <Banking />
         <CashCard />
         <Investing />
       </main>

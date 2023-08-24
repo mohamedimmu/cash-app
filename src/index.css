@@ -48,39 +48,45 @@
     @apply font-primary text-4xl hxxs:text-[72px] xxxs:text-[60px] xxs:text-8xl xs:text-9xl md:text-[164px] lg:text-[193px] font-extrabold uppercase leading-[0.86] tracking-[0.5px] text-center;
   }
 
-  .cash-card-grid {
+  .cash-card-grid,
+  .payment-grid {
     grid-template-columns: minmax(1rem, 1fr) minmax(auto, 140ch) minmax(
         1rem,
         1fr
       );
   }
 
-  .cash-card-grid {
-    grid-template-columns: minmax(1rem, 1fr) minmax(auto, 140ch) minmax(
-        1rem,
-        1fr
-      );
-  }
-
-  .cash-card-grid-lg {
+  .cash-card-grid-lg,
+  .payment-grid-lg {
     grid-template-columns: minmax(1rem, 1fr) minmax(auto, 120ch) minmax(
         1rem,
         1fr
       );
   }
 
-  .cash-card-grid-md {
+  .cash-card-grid-md,
+  .payment-grid-md {
     grid-template-columns: minmax(1rem, 1fr) minmax(auto, 70ch) minmax(
         1rem,
         1fr
       );
   }
 
-  .cash-card-grid-sm {
+  .cash-card-grid-sm,
+  .payment-grid-sm {
     grid-template-columns: minmax(1rem, 1fr) minmax(auto, 50ch) minmax(
         1rem,
         1fr
       );
+  }
+
+  .payment-perspective {
+    perspective: 1000px;
+    perspective-origin: left top;
+  }
+
+  .payment-bg-position {
+    background-position-y: calc(100% - 28px);
   }
 }
 

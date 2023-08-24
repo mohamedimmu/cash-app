@@ -16,7 +16,7 @@ module.exports = {
       },
       backgroundImage: {
         "rays-pattern": "url('../public/images/rays.svg')",
-        floor: "url('../public/images/floor.svg')",
+        floor: "url('../public/images/payment-floor.svg')",
       },
       screens: {
         xs: "540px",
