@@ -3,7 +3,7 @@ import Footer from "./Footer";
 
 const Investing = () => {
   return (
-    <section className="relative isolate w-full h-screen bg-secondary-color px-4 md:px-8 xl:px-16 flex flex-col overflow-hidden">
+    <section className="relative isolate w-full h-screen bg-secondary-color px-4 md:px-8 xl:px-16 flex flex-col">
       <div className="grid grid-cols-2 grid-rows-[auto_1fr] gap-4 xxs:gap-6 lg:gap-20 items-start my-auto xs:my-0">
         {/* Heading  */}
         <h2 className="col-span-full justify-self-center text-white text-xl sm:text-4xl md:text-[40px] font-primary mt-4 md:mt-8 lg:mt-20">

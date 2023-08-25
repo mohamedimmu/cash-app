@@ -2,7 +2,7 @@ import React from "react";
 
 const Banking = () => {
   return (
-    <section className="relative w-full h-screen bg-secondary-color overflow-hidden grid banking-grid-sm md:banking-grid-md lg:banking-grid-lg xl:banking-grid ">
+    <section className="relative w-full h-screen bg-secondary-color grid banking-grid-sm md:banking-grid-md lg:banking-grid-lg xl:banking-grid ">
       <div className="row-start-1 self-start justify-self-center text-center lg:self-center lg:justify-self-start lg:text-left col-start-2 col-end-3 flex flex-col gap-4 lg:max-w-[323px] mt-8 lg:mt-0 my-0 xl:mr-12 lg:ml-12 xl:ml-28">
         <h className="font-primary text-white text-xl sm:text-4xl md:text-[40px] leading-tight sm:leading-10 ">
           Banking

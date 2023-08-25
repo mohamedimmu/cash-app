@@ -3,7 +3,7 @@ import Footer from "./Footer";
 
 const Hero = () => {
   return (
-    <section className="w-full h-screen pt-24 px-4 md:px-8 xl:px-16 py-6 relative flex flex-col justify-center bg-black overflow-hidden isolate">
+    <section className="w-full h-screen pt-24 px-4 md:px-8 xl:px-16 py-6 relative flex flex-col justify-center bg-black isolate">
       <div className="mt-auto mb-4 sm:mb-auto self-center grid relative">
         <h1 className="heading z-0 col-span-1">Cash</h1>
         <div className="absolute center-absolute z-20 col-span-1">

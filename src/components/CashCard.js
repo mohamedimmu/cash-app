@@ -2,7 +2,7 @@ import React from "react";
 
 const CashCard = () => {
   return (
-    <section className="isolate relative h-screen w-full bg-black grid cash-card-grid-sm md:cash-card-grid-md lg:cash-card-grid-lg xl:cash-card-grid overflow-hidden">
+    <section className="isolate relative h-screen w-full bg-black grid cash-card-grid-sm md:cash-card-grid-md lg:cash-card-grid-lg xl:cash-card-grid">
       <div className="row-start-1 self-start justify-self-center text-center lg:self-center lg:justify-self-start lg:text-left col-start-2 col-end-3 flex flex-col gap-4 lg:max-w-[336px] mt-8 lg:mt-0 my-0 xl:mr-12 lg:ml-12 xl:ml-28">
         <h className="font-primary text-primary-color text-xl sm:text-4xl md:text-[40px] leading-tight sm:leading-10 ">
           Cash Card & Boost

@@ -1,7 +1,15 @@
-# Cash App Landing Page
+# Cash App UI Clone (Mercor Challenge)
 
-## UI ##
+This project is built using React and Tailwind CSS.
 
-Brokerage services by Cash App Investing LLC, member FINRA/SIPC.
-See our BrokerCheck. Investing involves risk; you may lose money.
-Bitcoin trading offered by Cash App. Cash App Investing does not trade bitcoin and Cash App is not a member of FINRA or SIPC. Cash App facilitates banking services through Sutton Bank and Lincoln Savings Bank, Members FDIC.
+**App Link:** [Cash App Clone](https://cash-app-six.vercel.app)
+
+**Figma Link:** [Figma Design](https://www.figma.com/file/gLwopVwiIg6xjr070G3JhE/Mercor-Frontend-Project?type=design&node-id=13%3A19&mode=dev)
+
+Special thanks to Ogoluwa Ojewale for the amazing UI design (@ogopedia).
+
+## App UI
+[Video Link](https://drive.google.com/file/d/1w1QuIFKmwK29W5TJ-ymgoH_Nv-c5ILHw/view?usp=drive_link)
+
+
+#UIDesign #React #TailwindCSS #FrontendDevelopment #Mercor

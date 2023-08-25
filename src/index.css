@@ -34,6 +34,9 @@
     scroll-snap-align: center;
     scroll-snap-stop: normal;
     scroll-margin: 10px;
+
+    overflow: hidden;
+    min-height: 760px;
   }
 
   .center-absolute {

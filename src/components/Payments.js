@@ -2,7 +2,7 @@ import React from "react";
 
 const Payments = () => {
   return (
-    <section className=" relative w-full h-screen bg-white-grey grid payment-grid-sm md:payment-grid-md lg:payment-grid-lg xl:payment-grid bg-floor bg-repeat-x payment-bg-position overflow-hidden">
+    <section className=" relative w-full h-screen bg-white-grey grid payment-grid-sm md:payment-grid-md lg:payment-grid-lg xl:payment-grid bg-floor bg-repeat-x payment-bg-position">
       <div className="row-start-1 self-start justify-self-center text-center lg:self-center lg:justify-self-start lg:text-left col-start-2 col-end-3 flex flex-col gap-4 lg:max-w-[352px] mt-8 lg:mt-0 my-0 xl:mr-12 lg:ml-12 xl:ml-28 mb-0 lg:mb-32">
         <h className="font-primary text-primary-color text-xl sm:text-4xl md:text-[40px] leading-tight sm:leading-10 ">
           Payments
