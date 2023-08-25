@@ -9,7 +9,9 @@ This project is built using React and Tailwind CSS.
 Special thanks to Ogoluwa Ojewale for the amazing UI design (@ogopedia).
 
 ## App UI
-[Video Link](https://drive.google.com/file/d/1w1QuIFKmwK29W5TJ-ymgoH_Nv-c5ILHw/view?usp=drive_link)
+https://github.com/mohamedimmu/cash-app/assets/54463675/d50e7ba1-0677-42da-b0a1-a949fc318832
+
+
 
 
 #UIDesign #React #TailwindCSS #FrontendDevelopment #Mercor
